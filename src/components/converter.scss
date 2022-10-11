@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.converter {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  margin: auto;
+  width: 80%;
+  padding: 60px 80px;
+  font-family: 'Montserrat', sans-serif;
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+    label {
+      margin-bottom: 3px;
+      font-size: 12px;
+    }
+
+    select,
+    input {
+      font-family: 'Montserrat', sans-serif;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 16px;
+      padding: 10px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    select {
+      background-color: rgb(191, 235, 237);
+      border-radius: 5px;
+      padding-right: 10px;
+      border: none;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+
+    input {
+      border: none;
+      border-bottom: 2px solid rgb(34, 101, 104);
+      font-size: 30px;
+      background: transparent;
+      color: rgb(21, 80, 83);
+    }
+
+    button {
+      font-size: 18px;
+      background-color: rgba(203, 250, 252, 0.894);
+      border: none;
+      padding: 10px 20px;
+      margin: 20px 0 0 0;
+      font-family: 'Montserrat', sans-serif;
+      border-radius: 5px;
+      color: rgb(34, 101, 104);
+      font-weight: 700;
+      transition: all 0.1s linear;
+
+      &:active {
+        background: rgba(255, 255, 255, 0.848);
+        transform: scale(0.98);
+      }
+    }
+
+
+  }
+
+  .result {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(34, 101, 104);
+    height: 30px;
+    text-align: left;
+    margin-top: 15px;
+  }
+}
