@@ -117,7 +117,7 @@ export default function Converter() {
         break;
       case ('vol'):
         setConvertFrom('l')
-        setConvertTo('')
+        setConvertTo('l')
         break;
       default:
         setConvertFrom('ton')
